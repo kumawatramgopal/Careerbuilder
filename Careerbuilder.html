@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html class='' lang='en-IN'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Careerbuilder</title>
+    <link rel="stylesheet" media="screen" href="https://www.careerbuilder.co.in/cdn/assets/application-a9da416a569d595edadb74d18b8875a34b72939fe50ed6aa0718dee7b3591508.css" />
+</head>
+<body>
+
+<div class='site-container'>
+    <div class='site-pusher'>
+        <header class='header'>
+        <a class="hamburger" id="hamburger" href="#"><span class='fa fa-bars'></span></a>
+        <div class='full'>
+        <a class="header-logo" href="/"><img style="margin-top: 19px" class="logo-in" src="https://www.careerbuilder.co.in/cdn/assets/logos/cb_logo_navy-f99fc96c6c71fe50ef2d1bb09f0788d4657b16c4718b5d12030413b7fff413ac.svg" alt="Cb logo navy" /></a>
+        </div>
+        </header>
+
+        <div class='full col-2 small-marge'>
+            <div class='col small bloc' id='fixed-parent'>
+                <a class="btn btn-blue btn-block btn-seperate" id="jobs-filter-button" href="#">Show filters</a>
+                <form class="form relative" id="jobs-filter" action="/jobsearch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+                <div class='job-filter'>
+                    <div class='job-filter-title'>Date Posted</div>
+                    <div class='job-filter-content'>
+                    <ul class='field'>
+                    <li>
+                    <input type="radio" name="posted" id="posted_1" value="1" />
+                    <label for='posted_1'>24 hours</label>
+                    </li>
+                    <li>
+                    <input type="radio" name="posted" id="posted_7" value="7" />
+                    <label for='posted_7'>1 week</label>
+                    </li>
+                    <li>
+                    <input type="radio" name="posted" id="posted_30" value="30" checked="checked" />
+                    <label for='posted_30'>1 month</label>
+                    </li>
+                    </ul>
+                    </div>
+                </div>
+                <div class='job-filter'>
+                    <div class='job-filter-title'>Job Type</div>
+                    <div class='job-filter-content'>
+                    <ul class='field' id='check_emp'>
+                    <li>
+                    <input type="checkbox" name="front_emp" id="emp_all" value="" checked="checked" />
+                    <label for='emp_all'>All</label>
+                    </li>
+                    <li>
+                    <input type="checkbox" name="front_emp" id="emp_jtft" value="jtft" />
+                    <label class='with-span' for='emp_jtft'>
+                    Full-Time Employee
+                    <span>(51)</span>
+                    </label>
+                    </li>
+                    <input type="hidden" name="emp" id="emp" />
+                    </ul>
+
+                    </div>
+                </div>
+                <div class='job-filter' id='filter-categories'>
+                    <div class='job-filter-title'>Categories</div>
+                    <div class='job-filter-content'>
+                    <ul class='field'>
+                    <li>
+                    <input type="checkbox" name="front_category" id="filter_category_information-technology" value="jn008" />
+                    <label class='with-span' for='filter_category_information-technology'>
+                    IT
+                    <span>(18)</span>
+                    </label>
+                    </li>
+                    <li>
+                    <input type="checkbox" name="front_category" id="filter_category_engineering" value="jn004" />
+                    <label class='with-span' for='filter_category_engineering'>
+                    Engineering
+                    <span>(36)</span>
+                    </label>
+                    </li>
+                    <li>
+                    <input type="checkbox" name="front_category" id="filter_category_professional-services" value="jn024" />
+                    <label class='with-span' for='filter_category_professional-services'>
+                    Professional Services
+                    <span>(5)</span>
+                    </label>
+                    </li>
+                    <li>
+                    <input type="checkbox" name="front_category" id="filter_category_management" value="jn037" />
+                    <label class='with-span' for='filter_category_management'>
+                    Management
+                    <span>(15)</span>
+                    </label>
+                    </li>
+                    <li>
+                    <input type="checkbox" name="front_category" id="filter_category_design" value="jn021" />
+                    <label class='with-span' for='filter_category_design'>
+                    Design
+                    <span>(6)</span>
+                    </label>
+                    </li>
+                    </ul>
+                    </div>
+                </div>
+
+                <div class='job-filter' id='filter-states'>
+                    <div class='job-filter-title'>States</div>
+                    <div class='job-filter-content'>
+                    <ul class='field'>
+                    <li>
+                    <input type="radio" name="filter_state" id="filter_state_maharashtra" value="maharashtra" />
+                    <label class='with-span' for='filter_state_maharashtra'>
+                    Rajasthan
+                    <span>(30)</span>
+                    </label>
+                    </li>
+                    <li>
+                    <input type="radio" name="filter_state" id="filter_state_chandigarh" value="chandigarh" />
+                    <label class='with-span' for='filter_state_chandigarh'>
+                    Mumbai
+                    <span>(6)</span>
+                    </label>
+                    </li>
+                    <li>
+                    <input type="radio" name="filter_state" id="filter_state_karnataka" value="karnataka" />
+                    <label class='with-span' for='filter_state_karnataka'>
+                    Haryana
+                    <span>(19)</span>
+                    </label>
+                    </li>
+                    <li>
+                    <input type="radio" name="filter_state" id="filter_state_uttar-pradesh" value="uttar pradesh" />
+                    <label class='with-span' for='filter_state_uttar-pradesh'>
+                    Uttar Pradesh
+                    <span>(2)</span>
+                    </label>
+                    </li>
+                    </ul>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<!-- Script file -->
+<script src="https://www.careerbuilder.co.in/cdn/assets/app-f82a33d16e8b73df84b41ba5275f261649d17157b04a66a544c56441b5676bdf.js" defer="defer"></script>
+<script src="https://www.careerbuilder.co.in/cdn/assets/init_core-2307a7689db2764d21b8046ba981654e238b7cffca5e615759e244231b1377f5.js"></script>
+
+</html>
